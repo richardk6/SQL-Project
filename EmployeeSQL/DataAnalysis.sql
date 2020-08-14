@@ -64,7 +64,7 @@ from employees
 	join departments
 		on (dept_emp.dept_no = departments.dept_no)
 where dept_name = 'Sales'
-order by employees.emp_on;
+order by employees.emp_no;
 
 -- List all employees in the Sales and Development departments, including their employee number, last name, 
 -- first name, and department name.
